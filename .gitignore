@@ -17,4 +17,5 @@ dbt_project/logs/
 *.json
 
 #OS
-.DS_Store
+.DS_Storedata/*.csvdata/*.csv
+data/*.csv
