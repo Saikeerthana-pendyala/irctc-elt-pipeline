@@ -1,0 +1,20 @@
+#Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+#Environment variables (never commit secrets)
+.env
+
+#dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+#GCP Credentials
+*.json
+
+#OS
+.DS_Store
